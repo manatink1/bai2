@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper h1{
+    text-align: center;
+    color: brown;
+}
+#wrapper{
+	width: 80%;
+    background-color: #fbfbfb;
+	height:60em;
+    margin-left: 10%;
+    position: relative;
+}
+.wrapper_backg{
+    background-image: url('PIC/tay-bac\(7\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 44em;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 3%;
+    position: relative;
+    display: grid;
+    isolation: isolate;
+}
+.wrapper_backg::after{
+    content:'';
+    inset: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.25);
+}
+.wrapper_conten{
+    left: 45%;
+    height: 44em;
+    width: 56%;
+    position: absolute;
+}
+i{
+    color: green;
+    font-size: 27px;
+    justify-content: center;
+    justify-items: center;
+}
+.wrapper_icon{
+    display: flex;
+    margin-top: 6em;
+    margin-left: 4em;
+}
+.wrapper_conten--icon2{
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    margin-right: 6em;
+}
+.wrapper_conten--icon2 i{
+    height: 2em;
+    width: 2em;
+    border: 2px dashed green ;
+    border-radius: 50%;
+}
+.wrapper_conten--icon3{
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+}
+.wrapper_conten--icon3 i{
+    height: 2em;
+    width: 2em;
+    border: 2px dashed green ;
+    border-radius: 50%;
+}
+.wrapper_conten--icon4{
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    margin-right: 4em;
+}
+.wrapper_conten--icon4 i{
+    height: 2em;
+    width: 2em;
+    border: 2px dashed green ;
+    border-radius: 50%;
+}
+.wrapper_conten--icon5{
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+}
+.wrapper_conten--icon5 i{
+    height: 2em;
+    width: 2em;
+    border: 2px dashed green ;
+    border-radius: 50%;
+}
+.wrapper_boder{
+    background-color: #009966;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    width: 33%;
+    height: 60%;
+	}
+.wrapper_img{
+    background-image: url('PIC/fd3a53a4c024057a5c35.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    width: 25%;
+    height: 65%;
+}
